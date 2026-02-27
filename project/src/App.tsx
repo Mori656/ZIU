@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Zap, Users, Trophy, Sparkles } from 'lucide-react';
 import { supabase } from './lib/supabase';
 import { PokemonCard } from './components/PokemonCard';
-import type { PokemonCard as PokemonCardType, UserCollection } from './types';
+import type { PokemonCard as PokemonCardType } from './types';
 
 function App() {
   const [cards, setCards] = useState<PokemonCardType[]>([]);
@@ -44,7 +44,7 @@ function App() {
                 <Zap className="w-8 h-8 text-black fill-current" />
               </div>
               <div>
-                <h1 className="text-3xl font-bold">PokéTrade</h1>
+                <h1 className="text-3xl font-bold">PokéTrade Marcel Nosek - Lab1</h1>
                 <p className="text-yellow-400 text-sm">Gotta Trade 'Em All!</p>
               </div>
             </div>

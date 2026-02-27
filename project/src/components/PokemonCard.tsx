@@ -35,7 +35,7 @@ export function PokemonCard({
   const rarityColor = rarityColors[card.rarity] || 'text-gray-600';
 
   return (
-    <div className="relative bg-white rounded-xl shadow-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-2xl border-4 border-yellow-400">
+    <div className="relative bg-white rounded-xl shadow-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-2xl border-8 border-black">
       <div className={`h-2 ${typeColor}`} />
 
       <div className="p-4">
